@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ='stylesheet' href="./src/styles/global.css">
+    <link rel ='stylesheet' href="./src/styles/index.css">
+    <link rel ='stylesheet' href="./src/styles/header.css">
+    <link rel ='stylesheet' href="./src/styles/button.css">
+    <link rel ='stylesheet' href="./src/styles/modal.css">
+    <link rel ='stylesheet' href="./src/styles/flex.css">
+    <link rel ='stylesheet' href="./src/styles/position.css">
+    <link rel ='stylesheet' href="./src/styles/img.css">
+    <title>Tech Posters</title>
+</head>
+<body>
+    <header class="m-bottom">
+        <div class="div-header container">
+            <h3>TechPosters</h3>
+            <button class="sair">Sair</button>
+        </div>
+    </header>
+    <main class="container flex gap-g wrap m-top m-bottom">
+        <div class="section-1 flex column gap-m">
+            <div class="flex gap-p align-center">
+                <img src="./src/assets/img/user1.svg">
+                <div class="flex column gap-p">
+                    <h4>Samuel Leão</h4>
+                    <p>Front End</p>
+                </div>
+            </div>
+            <div class="flex column gap-m justify-end">
+                <input type="text" id="titulo" placeholder="Título do post">
+                <textarea type="text" id="texto" placeholder="Conteúdo do post"></textarea>
+                <button class="postar">Postar</button>
+            </div>
+        </div>
+        <aside>
+            <h4>Sugestões para seguir</h4>
+            <div class="div-aside">
+                <!-- <div class="section-2">
+                    <div1 class="flex gap-p align-center">
+                        <img src="./src/assets/img/user1.svg">
+                        <div2 class="flex column gap-p">
+                            <h4 class="min-width">Samuel Leão</h4>
+                            <p class="min-width">Front End</p>
+                        </div2>
+                    </div1>
+                    <div3>
+                        <button class="seguir">Seguir</button>
+                    </div3>
+                </div> -->
+            </div>
+        </aside>
+        <div class="section-3 flex column gap-m">
+            <h2>Posts</h2>
+            <!-- <divMain class="flex column gap-m">
+                <div1>
+                    <div2 class="flex gap-p align-center">
+                        <img src="./src/assets/img/user1.svg">
+                        <div3 class="flex column gap-p">
+                            <h4>Samuel Leão</h4>
+                            <p>Front End</p>
+                        </div3>
+                    </div2>
+                </div1>
+                <div4>
+                    <h2>Empresa de Tecnologia da Informação abre vagas para programa de estágio</h2>
+                </div4>
+                <div5>
+                    <p>
+                        A Framework Digital, empresa mineira especializada em Tecnologia da Informação, irá iniciar o seu sexto programa de estágio, com o prazo de inscrições entre os dias 08 e 28 de agosto. O programa é conhecido como Framework Padawans, com inspiração nos filmes Star Wars. Nas histórias, os iniciantes fazem treinamentos para se tornar cavaleiros Jedi, que compõem o lado bom da força.
+                    </p>
+                </div5>
+                <div6 class="flex gap-m align-center">
+                    <button class="abrir-post">Abrir Post</button>
+                    <img class="heart" src="./src/assets/img/Vector (1).png">
+                </div6>
+            </divMain> -->
+        </div>
+    </main>
+    
+
+    <script src="./src/scripts/posts.js"></script>
+    <script src="./src/scripts/users.js"></script>
+    <script src="./src/scripts/sugestUsers.js"></script>
+    <script src="./src/scripts/modal.js"></script>
+    <script type="module" src="./src/scripts/index.js"></script>
+</body>
+</html>

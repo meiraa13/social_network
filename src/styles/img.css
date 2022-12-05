@@ -1,0 +1,20 @@
+img {
+
+    height: 50px;
+    width:  50px;
+}
+
+.heart {
+    width: fit-content;
+    height: fit-content;
+    /* background-color: aqua; */
+
+}
+
+.heart-red {
+
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+  
+}

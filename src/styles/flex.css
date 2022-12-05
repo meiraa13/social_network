@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap-p {
+    gap: 5px;
+}
+
+.gap-m {
+    gap: 30px;
+}
+
+.gap-g {
+    gap: 80px;
+}
+.column {
+    flex-direction: column;
+}
+
+.justify-end {
+
+    align-items: flex-end;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
